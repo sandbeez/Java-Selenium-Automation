@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Command_line_suite">
+              <span class="suite-name border-failed">Command line suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Command_line_suite">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Command_line_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Command_line_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Command_line_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Command_line_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Command_line_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Command_line_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">3 methods, 3 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods failed suite-Command_line_suite"> (hide)</a> <!-- hide-methods failed suite-Command_line_suite -->
+                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods failed suite-Command_line_suite"> (show)</a> <!-- show-methods failed suite-Command_line_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Command_line_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.automation.test.myFirstTest" hash-for-method="launchDriver">launchDriver</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.automation.test.browserNavigationCommandTest" hash-for-method="practiceBrowserCommandNavigation">practiceBrowserCommandNavigation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.automation.test.mySecondTest" hash-for-method="switchWindowTest">switchWindowTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Command_line_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Command_line_suite" class="panel Command_line_suite">
+          <div class="suite-Command_line_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.automation.test.myFirstTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchDriver">
+                  </a> <!-- launchDriver -->
+                  <span class="method-name">launchDriver</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(/Applications/Firefox.app/Contents/MacOS/firefox-bin) on port 7055; process output follows: 
+oreignInstall&quot;:false,&quot;hasBinaryComponents&quot;:false,&quot;strictCompatibility&quot;:false,&quot;locales&quot;:[],&quot;targetApplications&quot;:[{&quot;id&quot;:&quot;{ec8030f7-c20a-464f-9b0e-13a3a9e97384}&quot;,&quot;minVersion&quot;:&quot;45.0a1&quot;,&quot;maxVersion&quot;:&quot;45.0.1&quot;},{&quot;id&quot;:&quot;xpcshell@tests.mozilla.org&quot;,&quot;minVersion&quot;:&quot;0&quot;,&quot;maxVersion&quot;:&quot;10&quot;}],&quot;targetPlatforms&quot;:[],&quot;multiprocessCompatible&quot;:false,&quot;seen&quot;:true}
+1461429535174	addons.xpi	DEBUG	getModTime: Recursive scan of loop@mozilla.org
+1461429535175	addons.xpi	DEBUG	Updating XPIState for {&quot;id&quot;:&quot;{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;,&quot;syncGUID&quot;:&quot;nDV74iKGinpn&quot;,&quot;location&quot;:&quot;app-global&quot;,&quot;version&quot;:&quot;45.0.1&quot;,&quot;type&quot;:&quot;theme&quot;,&quot;internalName&quot;:&quot;classic/1.0&quot;,&quot;updateURL&quot;:null,&quot;updateKey&quot;:null,&quot;optionsURL&quot;:null,&quot;optionsType&quot;:null,&quot;aboutURL&quot;:null,&quot;icons&quot;:{&quot;32&quot;:&quot;icon.png&quot;,&quot;48&quot;:&quot;icon.png&quot;},&quot;iconURL&quot;:null,&quot;icon64URL&quot;:null,&quot;defaultLocale&quot;:{&quot;name&quot;:&quot;Default&quot;,&quot;description&quot;:&quot;The default theme.&quot;,&quot;creator&quot;:&quot;Mozilla&quot;,&quot;homepageURL&quot;:null,&quot;contributors&quot;:[&quot;Mozilla Contributors&quot;]},&quot;visible&quot;:true,&quot;active&quot;:true,&quot;userDisabled&quot;:false,&quot;appDisabled&quot;:false,&quot;descriptor&quot;:&quot;/Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi&quot;,&quot;installDate&quot;:1458452139000,&quot;updateDate&quot;:1458452139000,&quot;applyBackgroundUpdates&quot;:1,&quot;skinnable&quot;:true,&quot;size&quot;:7140,&quot;sourceURI&quot;:null,&quot;releaseNotesURI&quot;:null,&quot;softDisabled&quot;:false,&quot;foreignInstall&quot;:false,&quot;hasBinaryComponents&quot;:false,&quot;strictCompatibility&quot;:true,&quot;locales&quot;:[],&quot;targetApplications&quot;:[{&quot;id&quot;:&quot;{ec8030f7-c20a-464f-9b0e-13a3a9e97384}&quot;,&quot;minVersion&quot;:&quot;45.0.1&quot;,&quot;maxVersion&quot;:&quot;45.0.1&quot;}],&quot;targetPlatforms&quot;:[],&quot;seen&quot;:true}
+1461429535175	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1461429535176	DeferredSave.extensions.json	DEBUG	Save changes
+1461429535176	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1461429535176	addons.xpi-utils	DEBUG	Updating add-on states
+1461429535176	addons.xpi-utils	DEBUG	Writing add-ons list
+1461429535177	addons.xpi	DEBUG	Registering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/loop@mozilla.org.xpi
+1461429535178	addons.xpi	DEBUG	Calling bootstrap method startup on loop@mozilla.org version 0.1
+1461429535193	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;
+1461429535193	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;
+1461429535193	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;
+1461429535208	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1461429535208	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1461429535208	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1461429535208	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1461429535209	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1461429535209	addons.manager	DEBUG	Starting provider: GMPProvider
+1461429535214	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1461429535214	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1461429535214	addons.manager	DEBUG	Starting provider: PluginProvider
+1461429535214	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1461429535215	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1461429535215	addons.manager	DEBUG	Completed startup sequence
+1461429535605	DeferredSave.extensions.json	DEBUG	Starting write
+1461429535701	addons.repository	DEBUG	No addons.json found.
+1461429535701	DeferredSave.addons.json	DEBUG	Save changes
+1461429535704	DeferredSave.addons.json	DEBUG	Starting timer
+1461429535730	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1461429535730	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1461429535730	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1461429535738	DeferredSave.extensions.json	DEBUG	Write succeeded
+1461429535738	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 17
+1461429535758	DeferredSave.addons.json	DEBUG	Starting write
+1461429535770	DeferredSave.addons.json	DEBUG	Write succeeded
+
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;
+System info: host: &apos;SANTOSHs-MacBook-Pro.local&apos;, ip: &apos;10.0.0.9&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.4&apos;, java.version: &apos;1.7.0_25&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:135)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:117)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:216)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:211)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:207)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:120)
+	at com.automation.test.myFirstTest.launchDriver(myFirstTest.java:14)
+Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+oreignInstall&quot;:false,&quot;hasBinaryComponents&quot;:false,&quot;strictCompatibility&quot;:false,&quot;locales&quot;:[],&quot;targetApplications&quot;:[{&quot;id&quot;:&quot;{ec8030f7-c20a-464f-9b0e-13a3a9e97384}&quot;,&quot;minVersion&quot;:&quot;45.0a1&quot;,&quot;maxVersion&quot;:&quot;45.0.1&quot;},{&quot;id&quot;:&quot;xpcshell@tests.mozilla.org&quot;,&quot;minVersion&quot;:&quot;0&quot;,&quot;maxVersion&quot;:&quot;10&quot;}],&quot;targetPlatforms&quot;:[],&quot;multiprocessCompatible&quot;:false,&quot;seen&quot;:true}
+1461429535174	addons.xpi	DEBUG	getModTime: Recursive scan of loop@mozilla.org
+1461429535175	addons.xpi	DEBUG	Updating XPIState for {&quot;id&quot;:&quot;{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;,&quot;syncGUID&quot;:&quot;nDV74iKGinpn&quot;,&quot;location&quot;:&quot;app-global&quot;,&quot;version&quot;:&quot;45.0.1&quot;,&quot;type&quot;:&quot;theme&quot;,&quot;internalName&quot;:&quot;classic/1.0&quot;,&quot;updateURL&quot;:null,&quot;updateKey&quot;:null,&quot;optionsURL&quot;:null,&quot;optionsType&quot;:null,&quot;aboutURL&quot;:null,&quot;icons&quot;:{&quot;32&quot;:&quot;icon.png&quot;,&quot;48&quot;:&quot;icon.png&quot;},&quot;iconURL&quot;:null,&quot;icon64URL&quot;:null,&quot;defaultLocale&quot;:{&quot;name&quot;:&quot;Default&quot;,&quot;description&quot;:&quot;The default theme.&quot;,&quot;creator&quot;:&quot;Mozilla&quot;,&quot;homepageURL&quot;:null,&quot;contributors&quot;:[&quot;Mozilla Contributors&quot;]},&quot;visible&quot;:true,&quot;active&quot;:true,&quot;userDisabled&quot;:false,&quot;appDisabled&quot;:false,&quot;descriptor&quot;:&quot;/Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi&quot;,&quot;installDate&quot;:1458452139000,&quot;updateDate&quot;:1458452139000,&quot;applyBackgroundUpdates&quot;:1,&quot;skinnable&quot;:true,&quot;size&quot;:7140,&quot;sourceURI&quot;:null,&quot;releaseNotesURI&quot;:null,&quot;softDisabled&quot;:false,&quot;foreignInstall&quot;:false,&quot;hasBinaryComponents&quot;:false,&quot;strictCompatibility&quot;:true,&quot;locales&quot;:[],&quot;targetApplications&quot;:[{&quot;id&quot;:&quot;{ec8030f7-c20a-464f-9b0e-13a3a9e97384}&quot;,&quot;minVersion&quot;:&quot;45.0.1&quot;,&quot;maxVersion&quot;:&quot;45.0.1&quot;}],&quot;targetPlatforms&quot;:[],&quot;seen&quot;:true}
+1461429535175	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1461429535176	DeferredSave.extensions.json	DEBUG	Save changes
+1461429535176	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1461429535176	addons.xpi-utils	DEBUG	Updating add-on states
+1461429535176	addons.xpi-utils	DEBUG	Writing add-ons list
+1461429535177	addons.xpi	DEBUG	Registering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/loop@mozilla.org.xpi
+1461429535178	addons.xpi	DEBUG	Calling bootstrap method startup on loop@mozilla.org version 0.1
+1461429535193	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;
+1461429535193	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;
+1461429535193	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;
+1461429535208	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1461429535208	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1461429535208	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1461429535208	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1461429535209	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1461429535209	addons.manager	DEBUG	Starting provider: GMPProvider
+1461429535214	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1461429535214	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1461429535214	addons.manager	DEBUG	Starting provider: PluginProvider
+1461429535214	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1461429535215	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1461429535215	addons.manager	DEBUG	Completed startup sequence
+1461429535605	DeferredSave.extensions.json	DEBUG	Starting write
+1461429535701	addons.repository	DEBUG	No addons.json found.
+1461429535701	DeferredSave.addons.json	DEBUG	Save changes
+1461429535704	DeferredSave.addons.json	DEBUG	Starting timer
+1461429535730	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1461429535730	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1461429535730	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1461429535738	DeferredSave.extensions.json	DEBUG	Write succeeded
+1461429535738	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 17
+1461429535758	DeferredSave.addons.json	DEBUG	Starting write
+1461429535770	DeferredSave.addons.json	DEBUG	Write succeeded
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:123)
+	... 41 more
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-failed -->
+          <div class="suite-Command_line_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.automation.test.browserNavigationCommandTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="practiceBrowserCommandNavigation">
+                  </a> <!-- practiceBrowserCommandNavigation -->
+                  <span class="method-name">practiceBrowserCommandNavigation</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(/Applications/Firefox.app/Contents/MacOS/firefox-bin) on port 7055; process output follows: 
+oreignInstall&quot;:false,&quot;hasBinaryComponents&quot;:false,&quot;strictCompatibility&quot;:false,&quot;locales&quot;:[],&quot;targetApplications&quot;:[{&quot;id&quot;:&quot;{ec8030f7-c20a-464f-9b0e-13a3a9e97384}&quot;,&quot;minVersion&quot;:&quot;45.0a1&quot;,&quot;maxVersion&quot;:&quot;45.0.1&quot;},{&quot;id&quot;:&quot;xpcshell@tests.mozilla.org&quot;,&quot;minVersion&quot;:&quot;0&quot;,&quot;maxVersion&quot;:&quot;10&quot;}],&quot;targetPlatforms&quot;:[],&quot;multiprocessCompatible&quot;:false,&quot;seen&quot;:true}
+1461429489934	addons.xpi	DEBUG	getModTime: Recursive scan of loop@mozilla.org
+1461429489935	addons.xpi	DEBUG	Updating XPIState for {&quot;id&quot;:&quot;{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;,&quot;syncGUID&quot;:&quot;TIwtKJxyqrXK&quot;,&quot;location&quot;:&quot;app-global&quot;,&quot;version&quot;:&quot;45.0.1&quot;,&quot;type&quot;:&quot;theme&quot;,&quot;internalName&quot;:&quot;classic/1.0&quot;,&quot;updateURL&quot;:null,&quot;updateKey&quot;:null,&quot;optionsURL&quot;:null,&quot;optionsType&quot;:null,&quot;aboutURL&quot;:null,&quot;icons&quot;:{&quot;32&quot;:&quot;icon.png&quot;,&quot;48&quot;:&quot;icon.png&quot;},&quot;iconURL&quot;:null,&quot;icon64URL&quot;:null,&quot;defaultLocale&quot;:{&quot;name&quot;:&quot;Default&quot;,&quot;description&quot;:&quot;The default theme.&quot;,&quot;creator&quot;:&quot;Mozilla&quot;,&quot;homepageURL&quot;:null,&quot;contributors&quot;:[&quot;Mozilla Contributors&quot;]},&quot;visible&quot;:true,&quot;active&quot;:true,&quot;userDisabled&quot;:false,&quot;appDisabled&quot;:false,&quot;descriptor&quot;:&quot;/Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi&quot;,&quot;installDate&quot;:1458452139000,&quot;updateDate&quot;:1458452139000,&quot;applyBackgroundUpdates&quot;:1,&quot;skinnable&quot;:true,&quot;size&quot;:7140,&quot;sourceURI&quot;:null,&quot;releaseNotesURI&quot;:null,&quot;softDisabled&quot;:false,&quot;foreignInstall&quot;:false,&quot;hasBinaryComponents&quot;:false,&quot;strictCompatibility&quot;:true,&quot;locales&quot;:[],&quot;targetApplications&quot;:[{&quot;id&quot;:&quot;{ec8030f7-c20a-464f-9b0e-13a3a9e97384}&quot;,&quot;minVersion&quot;:&quot;45.0.1&quot;,&quot;maxVersion&quot;:&quot;45.0.1&quot;}],&quot;targetPlatforms&quot;:[],&quot;seen&quot;:true}
+1461429489935	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1461429489936	DeferredSave.extensions.json	DEBUG	Save changes
+1461429489936	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1461429489936	addons.xpi-utils	DEBUG	Updating add-on states
+1461429489937	addons.xpi-utils	DEBUG	Writing add-ons list
+1461429489938	addons.xpi	DEBUG	Registering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/loop@mozilla.org.xpi
+1461429489938	addons.xpi	DEBUG	Calling bootstrap method startup on loop@mozilla.org version 0.1
+1461429489961	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;
+1461429489961	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;
+1461429489962	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;
+1461429489987	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1461429489987	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1461429489987	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1461429489987	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1461429489987	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1461429489988	addons.manager	DEBUG	Starting provider: GMPProvider
+1461429489993	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1461429489994	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1461429489994	addons.manager	DEBUG	Starting provider: PluginProvider
+1461429489994	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1461429489994	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1461429489995	addons.manager	DEBUG	Completed startup sequence
+1461429490389	DeferredSave.extensions.json	DEBUG	Starting write
+1461429490508	addons.repository	DEBUG	No addons.json found.
+1461429490509	DeferredSave.addons.json	DEBUG	Save changes
+1461429490512	DeferredSave.addons.json	DEBUG	Starting timer
+1461429490547	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1461429490547	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1461429490547	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1461429490555	DeferredSave.extensions.json	DEBUG	Write succeeded
+1461429490556	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 17
+1461429490564	DeferredSave.addons.json	DEBUG	Starting write
+1461429490588	DeferredSave.addons.json	DEBUG	Write succeeded
+
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;
+System info: host: &apos;SANTOSHs-MacBook-Pro.local&apos;, ip: &apos;10.0.0.9&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.4&apos;, java.version: &apos;1.7.0_25&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:135)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:117)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:216)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:211)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:207)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:120)
+	at com.automation.test.browserNavigationCommandTest.practiceBrowserCommandNavigation(browserNavigationCommandTest.java:16)
+Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+oreignInstall&quot;:false,&quot;hasBinaryComponents&quot;:false,&quot;strictCompatibility&quot;:false,&quot;locales&quot;:[],&quot;targetApplications&quot;:[{&quot;id&quot;:&quot;{ec8030f7-c20a-464f-9b0e-13a3a9e97384}&quot;,&quot;minVersion&quot;:&quot;45.0a1&quot;,&quot;maxVersion&quot;:&quot;45.0.1&quot;},{&quot;id&quot;:&quot;xpcshell@tests.mozilla.org&quot;,&quot;minVersion&quot;:&quot;0&quot;,&quot;maxVersion&quot;:&quot;10&quot;}],&quot;targetPlatforms&quot;:[],&quot;multiprocessCompatible&quot;:false,&quot;seen&quot;:true}
+1461429489934	addons.xpi	DEBUG	getModTime: Recursive scan of loop@mozilla.org
+1461429489935	addons.xpi	DEBUG	Updating XPIState for {&quot;id&quot;:&quot;{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;,&quot;syncGUID&quot;:&quot;TIwtKJxyqrXK&quot;,&quot;location&quot;:&quot;app-global&quot;,&quot;version&quot;:&quot;45.0.1&quot;,&quot;type&quot;:&quot;theme&quot;,&quot;internalName&quot;:&quot;classic/1.0&quot;,&quot;updateURL&quot;:null,&quot;updateKey&quot;:null,&quot;optionsURL&quot;:null,&quot;optionsType&quot;:null,&quot;aboutURL&quot;:null,&quot;icons&quot;:{&quot;32&quot;:&quot;icon.png&quot;,&quot;48&quot;:&quot;icon.png&quot;},&quot;iconURL&quot;:null,&quot;icon64URL&quot;:null,&quot;defaultLocale&quot;:{&quot;name&quot;:&quot;Default&quot;,&quot;description&quot;:&quot;The default theme.&quot;,&quot;creator&quot;:&quot;Mozilla&quot;,&quot;homepageURL&quot;:null,&quot;contributors&quot;:[&quot;Mozilla Contributors&quot;]},&quot;visible&quot;:true,&quot;active&quot;:true,&quot;userDisabled&quot;:false,&quot;appDisabled&quot;:false,&quot;descriptor&quot;:&quot;/Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi&quot;,&quot;installDate&quot;:1458452139000,&quot;updateDate&quot;:1458452139000,&quot;applyBackgroundUpdates&quot;:1,&quot;skinnable&quot;:true,&quot;size&quot;:7140,&quot;sourceURI&quot;:null,&quot;releaseNotesURI&quot;:null,&quot;softDisabled&quot;:false,&quot;foreignInstall&quot;:false,&quot;hasBinaryComponents&quot;:false,&quot;strictCompatibility&quot;:true,&quot;locales&quot;:[],&quot;targetApplications&quot;:[{&quot;id&quot;:&quot;{ec8030f7-c20a-464f-9b0e-13a3a9e97384}&quot;,&quot;minVersion&quot;:&quot;45.0.1&quot;,&quot;maxVersion&quot;:&quot;45.0.1&quot;}],&quot;targetPlatforms&quot;:[],&quot;seen&quot;:true}
+1461429489935	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1461429489936	DeferredSave.extensions.json	DEBUG	Save changes
+1461429489936	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1461429489936	addons.xpi-utils	DEBUG	Updating add-on states
+1461429489937	addons.xpi-utils	DEBUG	Writing add-ons list
+1461429489938	addons.xpi	DEBUG	Registering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/loop@mozilla.org.xpi
+1461429489938	addons.xpi	DEBUG	Calling bootstrap method startup on loop@mozilla.org version 0.1
+1461429489961	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;
+1461429489961	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;
+1461429489962	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;
+1461429489987	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1461429489987	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1461429489987	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1461429489987	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1461429489987	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1461429489988	addons.manager	DEBUG	Starting provider: GMPProvider
+1461429489993	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1461429489994	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1461429489994	addons.manager	DEBUG	Starting provider: PluginProvider
+1461429489994	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1461429489994	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1461429489995	addons.manager	DEBUG	Completed startup sequence
+1461429490389	DeferredSave.extensions.json	DEBUG	Starting write
+1461429490508	addons.repository	DEBUG	No addons.json found.
+1461429490509	DeferredSave.addons.json	DEBUG	Save changes
+1461429490512	DeferredSave.addons.json	DEBUG	Starting timer
+1461429490547	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1461429490547	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1461429490547	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1461429490555	DeferredSave.extensions.json	DEBUG	Write succeeded
+1461429490556	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 17
+1461429490564	DeferredSave.addons.json	DEBUG	Starting write
+1461429490588	DeferredSave.addons.json	DEBUG	Write succeeded
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:123)
+	... 41 more
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-failed -->
+          <div class="suite-Command_line_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.automation.test.mySecondTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="switchWindowTest">
+                  </a> <!-- switchWindowTest -->
+                  <span class="method-name">switchWindowTest</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(/Applications/Firefox.app/Contents/MacOS/firefox-bin) on port 7055; process output follows: 
+oreignInstall&quot;:false,&quot;hasBinaryComponents&quot;:false,&quot;strictCompatibility&quot;:false,&quot;locales&quot;:[],&quot;targetApplications&quot;:[{&quot;id&quot;:&quot;{ec8030f7-c20a-464f-9b0e-13a3a9e97384}&quot;,&quot;minVersion&quot;:&quot;45.0a1&quot;,&quot;maxVersion&quot;:&quot;45.0.1&quot;},{&quot;id&quot;:&quot;xpcshell@tests.mozilla.org&quot;,&quot;minVersion&quot;:&quot;0&quot;,&quot;maxVersion&quot;:&quot;10&quot;}],&quot;targetPlatforms&quot;:[],&quot;multiprocessCompatible&quot;:false,&quot;seen&quot;:true}
+1461429580331	addons.xpi	DEBUG	getModTime: Recursive scan of loop@mozilla.org
+1461429580331	addons.xpi	DEBUG	Updating XPIState for {&quot;id&quot;:&quot;{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;,&quot;syncGUID&quot;:&quot;gy0_-1O-MJA8&quot;,&quot;location&quot;:&quot;app-global&quot;,&quot;version&quot;:&quot;45.0.1&quot;,&quot;type&quot;:&quot;theme&quot;,&quot;internalName&quot;:&quot;classic/1.0&quot;,&quot;updateURL&quot;:null,&quot;updateKey&quot;:null,&quot;optionsURL&quot;:null,&quot;optionsType&quot;:null,&quot;aboutURL&quot;:null,&quot;icons&quot;:{&quot;32&quot;:&quot;icon.png&quot;,&quot;48&quot;:&quot;icon.png&quot;},&quot;iconURL&quot;:null,&quot;icon64URL&quot;:null,&quot;defaultLocale&quot;:{&quot;name&quot;:&quot;Default&quot;,&quot;description&quot;:&quot;The default theme.&quot;,&quot;creator&quot;:&quot;Mozilla&quot;,&quot;homepageURL&quot;:null,&quot;contributors&quot;:[&quot;Mozilla Contributors&quot;]},&quot;visible&quot;:true,&quot;active&quot;:true,&quot;userDisabled&quot;:false,&quot;appDisabled&quot;:false,&quot;descriptor&quot;:&quot;/Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi&quot;,&quot;installDate&quot;:1458452139000,&quot;updateDate&quot;:1458452139000,&quot;applyBackgroundUpdates&quot;:1,&quot;skinnable&quot;:true,&quot;size&quot;:7140,&quot;sourceURI&quot;:null,&quot;releaseNotesURI&quot;:null,&quot;softDisabled&quot;:false,&quot;foreignInstall&quot;:false,&quot;hasBinaryComponents&quot;:false,&quot;strictCompatibility&quot;:true,&quot;locales&quot;:[],&quot;targetApplications&quot;:[{&quot;id&quot;:&quot;{ec8030f7-c20a-464f-9b0e-13a3a9e97384}&quot;,&quot;minVersion&quot;:&quot;45.0.1&quot;,&quot;maxVersion&quot;:&quot;45.0.1&quot;}],&quot;targetPlatforms&quot;:[],&quot;seen&quot;:true}
+1461429580331	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1461429580332	DeferredSave.extensions.json	DEBUG	Save changes
+1461429580332	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1461429580332	addons.xpi-utils	DEBUG	Updating add-on states
+1461429580334	addons.xpi-utils	DEBUG	Writing add-ons list
+1461429580337	addons.xpi	DEBUG	Registering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/loop@mozilla.org.xpi
+1461429580338	addons.xpi	DEBUG	Calling bootstrap method startup on loop@mozilla.org version 0.1
+1461429580351	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;
+1461429580352	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;
+1461429580352	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;
+1461429580370	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1461429580370	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1461429580370	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1461429580370	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1461429580371	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1461429580372	addons.manager	DEBUG	Starting provider: GMPProvider
+1461429580377	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1461429580377	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1461429580377	addons.manager	DEBUG	Starting provider: PluginProvider
+1461429580377	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1461429580377	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1461429580378	addons.manager	DEBUG	Completed startup sequence
+1461429580774	DeferredSave.extensions.json	DEBUG	Starting write
+1461429580875	addons.repository	DEBUG	No addons.json found.
+1461429580876	DeferredSave.addons.json	DEBUG	Save changes
+1461429580879	DeferredSave.addons.json	DEBUG	Starting timer
+1461429580904	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1461429580904	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1461429580904	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1461429580906	DeferredSave.extensions.json	DEBUG	Write succeeded
+1461429580906	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 17
+1461429580930	DeferredSave.addons.json	DEBUG	Starting write
+1461429580942	DeferredSave.addons.json	DEBUG	Write succeeded
+
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;
+System info: host: &apos;SANTOSHs-MacBook-Pro.local&apos;, ip: &apos;10.0.0.9&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.4&apos;, java.version: &apos;1.7.0_25&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:135)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:117)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:216)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:211)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:207)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:120)
+	at com.automation.test.mySecondTest.switchWindowTest(mySecondTest.java:18)
+Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+oreignInstall&quot;:false,&quot;hasBinaryComponents&quot;:false,&quot;strictCompatibility&quot;:false,&quot;locales&quot;:[],&quot;targetApplications&quot;:[{&quot;id&quot;:&quot;{ec8030f7-c20a-464f-9b0e-13a3a9e97384}&quot;,&quot;minVersion&quot;:&quot;45.0a1&quot;,&quot;maxVersion&quot;:&quot;45.0.1&quot;},{&quot;id&quot;:&quot;xpcshell@tests.mozilla.org&quot;,&quot;minVersion&quot;:&quot;0&quot;,&quot;maxVersion&quot;:&quot;10&quot;}],&quot;targetPlatforms&quot;:[],&quot;multiprocessCompatible&quot;:false,&quot;seen&quot;:true}
+1461429580331	addons.xpi	DEBUG	getModTime: Recursive scan of loop@mozilla.org
+1461429580331	addons.xpi	DEBUG	Updating XPIState for {&quot;id&quot;:&quot;{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;,&quot;syncGUID&quot;:&quot;gy0_-1O-MJA8&quot;,&quot;location&quot;:&quot;app-global&quot;,&quot;version&quot;:&quot;45.0.1&quot;,&quot;type&quot;:&quot;theme&quot;,&quot;internalName&quot;:&quot;classic/1.0&quot;,&quot;updateURL&quot;:null,&quot;updateKey&quot;:null,&quot;optionsURL&quot;:null,&quot;optionsType&quot;:null,&quot;aboutURL&quot;:null,&quot;icons&quot;:{&quot;32&quot;:&quot;icon.png&quot;,&quot;48&quot;:&quot;icon.png&quot;},&quot;iconURL&quot;:null,&quot;icon64URL&quot;:null,&quot;defaultLocale&quot;:{&quot;name&quot;:&quot;Default&quot;,&quot;description&quot;:&quot;The default theme.&quot;,&quot;creator&quot;:&quot;Mozilla&quot;,&quot;homepageURL&quot;:null,&quot;contributors&quot;:[&quot;Mozilla Contributors&quot;]},&quot;visible&quot;:true,&quot;active&quot;:true,&quot;userDisabled&quot;:false,&quot;appDisabled&quot;:false,&quot;descriptor&quot;:&quot;/Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi&quot;,&quot;installDate&quot;:1458452139000,&quot;updateDate&quot;:1458452139000,&quot;applyBackgroundUpdates&quot;:1,&quot;skinnable&quot;:true,&quot;size&quot;:7140,&quot;sourceURI&quot;:null,&quot;releaseNotesURI&quot;:null,&quot;softDisabled&quot;:false,&quot;foreignInstall&quot;:false,&quot;hasBinaryComponents&quot;:false,&quot;strictCompatibility&quot;:true,&quot;locales&quot;:[],&quot;targetApplications&quot;:[{&quot;id&quot;:&quot;{ec8030f7-c20a-464f-9b0e-13a3a9e97384}&quot;,&quot;minVersion&quot;:&quot;45.0.1&quot;,&quot;maxVersion&quot;:&quot;45.0.1&quot;}],&quot;targetPlatforms&quot;:[],&quot;seen&quot;:true}
+1461429580331	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1461429580332	DeferredSave.extensions.json	DEBUG	Save changes
+1461429580332	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1461429580332	addons.xpi-utils	DEBUG	Updating add-on states
+1461429580334	addons.xpi-utils	DEBUG	Writing add-ons list
+1461429580337	addons.xpi	DEBUG	Registering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/loop@mozilla.org.xpi
+1461429580338	addons.xpi	DEBUG	Calling bootstrap method startup on loop@mozilla.org version 0.1
+1461429580351	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;
+1461429580352	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;
+1461429580352	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;
+1461429580370	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1461429580370	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1461429580370	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1461429580370	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1461429580371	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1461429580372	addons.manager	DEBUG	Starting provider: GMPProvider
+1461429580377	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1461429580377	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1461429580377	addons.manager	DEBUG	Starting provider: PluginProvider
+1461429580377	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1461429580377	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1461429580378	addons.manager	DEBUG	Completed startup sequence
+1461429580774	DeferredSave.extensions.json	DEBUG	Starting write
+1461429580875	addons.repository	DEBUG	No addons.json found.
+1461429580876	DeferredSave.addons.json	DEBUG	Save changes
+1461429580879	DeferredSave.addons.json	DEBUG	Starting timer
+1461429580904	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1461429580904	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1461429580904	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1461429580906	DeferredSave.extensions.json	DEBUG	Write succeeded
+1461429580906	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 17
+1461429580930	DeferredSave.addons.json	DEBUG	Starting write
+1461429580942	DeferredSave.addons.json	DEBUG	Write succeeded
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:123)
+	... 41 more
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-failed -->
+        </div> <!-- panel Command_line_suite -->
+        <div panel-name="test-xml-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;Command line suite&quot;&gt;
+  &lt;test name=&quot;Command line test&quot; preserve-order=&quot;false&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.automation.test.browserNavigationCommandTest&quot;/&gt;
+      &lt;class name=&quot;com.automation.test.myFirstTest&quot;/&gt;
+      &lt;class name=&quot;com.automation.test.mySecondTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Command line test --&gt;
+&lt;/suite&gt; &lt;!-- Command line suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Command line test (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Command_line_suite');
+function tableData_Command_line_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(3);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'practiceBrowserCommandNavigation')
+data.setCell(0, 2, 'com.automation.test.browserNavigationCommandTest')
+data.setCell(0, 3, 46017);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'launchDriver')
+data.setCell(1, 2, 'com.automation.test.myFirstTest')
+data.setCell(1, 3, 45251);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'switchWindowTest')
+data.setCell(2, 2, 'com.automation.test.mySecondTest')
+data.setCell(2, 3, 45191);
+window.suiteTableData['Command_line_suite']= { tableData: data, tableDiv: 'times-div-Command_line_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Command_line_suite">
+              </div> <!-- times-div-Command_line_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.test.browserNavigationCommandTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">practiceBrowserCommandNavigation</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.test.myFirstTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">launchDriver</span>
+                <span class="method-start">46024 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.test.mySecondTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">switchWindowTest</span>
+                <span class="method-start">91279 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

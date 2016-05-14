@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.automation.test.myFirstTest">
+        <methods>
+          <include name="launchDriver"/>
+        </methods>
+      </class> <!-- com.automation.test.myFirstTest -->
+      <class name="com.automation.test.browserNavigationCommandTest">
+        <methods>
+          <include name="practiceBrowserCommandNavigation"/>
+        </methods>
+      </class> <!-- com.automation.test.browserNavigationCommandTest -->
+      <class name="com.automation.test.mySecondTest">
+        <methods>
+          <include name="switchWindowTest"/>
+        </methods>
+      </class> <!-- com.automation.test.mySecondTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
