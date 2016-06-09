@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
+<<<<<<< HEAD
 <testsuite failures="1" time="55.182" errors="0" skipped="0" tests="3" name="TestSuite">
+=======
+<testsuite failures="1" time="54.333" errors="0" skipped="0" tests="3" name="TestSuite">
+>>>>>>> 027cb10ee1d53b67cdd0248f1157b1bc88223f52
   <properties>
     <property name="idea.version" value="15.0.1"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -17,7 +21,11 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+<<<<<<< HEAD
     <property name="user.dir" value="/Users/santoshbasnet/Desktop/gitclone/Selenium-Practice"/>
+=======
+    <property name="user.dir" value="/Users/santoshbasnet/IdeaProjects/Selenium-Practice"/>
+>>>>>>> 027cb10ee1d53b67cdd0248f1157b1bc88223f52
     <property name="java.runtime.version" value="1.7.0_25-b15"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/lib/endorsed"/>
@@ -64,27 +72,48 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
+<<<<<<< HEAD
   <testcase time="14.066" classname="com.automation.test.browserNavigationCommandTest" name="practiceBrowserCommandNavigation"/>
   <testcase time="34.701" classname="com.automation.test.myFirstTest" name="launchDriver">
     <failure message="The given selector input[@name=&apos;subjectbox is either invalid or does not result in a WebElement. The following error occurred:
 InvalidSelectorError: Unable to locate an element with the xpath expression input[@name=&apos;subjectbox because of the following error:
 SyntaxError: The expression is not a legal expression.
 Command duration or timeout: 728 milliseconds
+=======
+  <testcase time="11.968" classname="com.automation.test.browserNavigationCommandTest" name="practiceBrowserCommandNavigation"/>
+  <testcase time="33.743" classname="com.automation.test.myFirstTest" name="launchDriver">
+    <failure message="The given selector input[@name=&apos;subjectbox is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression input[@name=&apos;subjectbox because of the following error:
+SyntaxError: The expression is not a legal expression.
+Command duration or timeout: 571 milliseconds
+>>>>>>> 027cb10ee1d53b67cdd0248f1157b1bc88223f52
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
 Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
 System info: host: &apos;SANTOSHs-MacBook-Pro.local&apos;, ip: &apos;10.0.0.9&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.4&apos;, java.version: &apos;1.7.0_25&apos;
 *** Element info: {Using=xpath, value=input[@name=&apos;subjectbox}
+<<<<<<< HEAD
 Session ID: 0cdfffe5-5dc5-4042-996e-e6dc2a8eab14
+=======
+Session ID: 1a55ba43-0695-254c-8c8b-030275d056d7
+>>>>>>> 027cb10ee1d53b67cdd0248f1157b1bc88223f52
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=45.0.2}]" type="org.openqa.selenium.InvalidSelectorException">org.openqa.selenium.InvalidSelectorException: The given selector input[@name=&apos;subjectbox is either invalid or does not result in a WebElement. The following error occurred:
 InvalidSelectorError: Unable to locate an element with the xpath expression input[@name=&apos;subjectbox because of the following error:
 SyntaxError: The expression is not a legal expression.
+<<<<<<< HEAD
 Command duration or timeout: 728 milliseconds
+=======
+Command duration or timeout: 571 milliseconds
+>>>>>>> 027cb10ee1d53b67cdd0248f1157b1bc88223f52
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
 Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
 System info: host: &apos;SANTOSHs-MacBook-Pro.local&apos;, ip: &apos;10.0.0.9&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.4&apos;, java.version: &apos;1.7.0_25&apos;
 *** Element info: {Using=xpath, value=input[@name=&apos;subjectbox}
+<<<<<<< HEAD
 Session ID: 0cdfffe5-5dc5-4042-996e-e6dc2a8eab14
+=======
+Session ID: 1a55ba43-0695-254c-8c8b-030275d056d7
+>>>>>>> 027cb10ee1d53b67cdd0248f1157b1bc88223f52
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=45.0.2}]
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
@@ -106,6 +135,7 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
 System info: host: &apos;SANTOSHs-MacBook-Pro.local&apos;, ip: &apos;10.0.0.9&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.4&apos;, java.version: &apos;1.7.0_25&apos;
 Driver info: driver.version: unknown
+<<<<<<< HEAD
 	at &lt;anonymous class&gt;.FirefoxDriver.annotateInvalidSelectorError_(file:///var/folders/7b/qhjgldld789gy7rs82wvbk8c0000gn/T/anonymous7675864633806113513webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10744)
 	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/7b/qhjgldld789gy7rs82wvbk8c0000gn/T/anonymous7675864633806113513webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10775)
 	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElement(file:///var/folders/7b/qhjgldld789gy7rs82wvbk8c0000gn/T/anonymous7675864633806113513webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10779)
@@ -115,4 +145,15 @@ Driver info: driver.version: unknown
 </failure>
   </testcase>
   <testcase time="6.002" classname="com.automation.test.mySecondTest" name="switchWindowTest"/>
+=======
+	at &lt;anonymous class&gt;.FirefoxDriver.annotateInvalidSelectorError_(file:///var/folders/7b/qhjgldld789gy7rs82wvbk8c0000gn/T/anonymous8008103212609101533webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10744)
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/7b/qhjgldld789gy7rs82wvbk8c0000gn/T/anonymous8008103212609101533webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10775)
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElement(file:///var/folders/7b/qhjgldld789gy7rs82wvbk8c0000gn/T/anonymous8008103212609101533webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10779)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/7b/qhjgldld789gy7rs82wvbk8c0000gn/T/anonymous8008103212609101533webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///var/folders/7b/qhjgldld789gy7rs82wvbk8c0000gn/T/anonymous8008103212609101533webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12666)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///var/folders/7b/qhjgldld789gy7rs82wvbk8c0000gn/T/anonymous8008103212609101533webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12608)
+</failure>
+  </testcase>
+  <testcase time="8.284" classname="com.automation.test.mySecondTest" name="switchWindowTest"/>
+>>>>>>> 027cb10ee1d53b67cdd0248f1157b1bc88223f52
 </testsuite>
