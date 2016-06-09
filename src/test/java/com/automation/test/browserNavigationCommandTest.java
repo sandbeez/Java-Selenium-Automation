@@ -8,6 +8,15 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
+//        Launch new Browser
+//        Open DemoQA.com website
+//        Click on Registration link using “driver.findElement(By.xpath(“.//*[@id=’menu-item-374′]/a”)).click();“
+//        Come back to Home page (Use ‘Back’ command)
+//        Again go back to Registration page (This time use ‘Forward’ command)
+//        Again come back to Home page (This time use ‘To’ command)
+//        Refresh the Browser (Use ‘Refresh’ command)
+//        Close the Browser
+
 
 public class browserNavigationCommandTest {
 
@@ -42,6 +51,7 @@ public class browserNavigationCommandTest {
 
 
         driver.close();
+        driver.quit();
 
     }
 }

@@ -7,9 +7,18 @@ import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
 
-public class browserCommandPractice1 {
+//        Launch a new Firefox browser.
+//        Open Store.DemoQA.com
+//        Get Page Title name and Title length
+//        Print Page Title and Title length on the Console.
+//        Get Page URL and verify if the it is a correct page
+//        Get Page Source (HTML Source code) and Page Source length
+//        Print Page Length on  Console.
+//        Close the Browser.
+
+public class browserCommandTest {
     @Test
-    public void practiceBrowserCommands(){
+    public void browserCommands(){
 
         WebDriver driver = new FirefoxDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -21,17 +30,18 @@ public class browserCommandPractice1 {
         int titleLength = driver.getTitle().length();
         System.out.println("The title of this page is " + curTitle);
         System.out.println("The length of this title is " + titleLength);
-        String actualurl = driver.getCurrentUrl();
-        if (actualurl.equals(url)){
+        String actualUrl = driver.getCurrentUrl();
+        if (actualUrl.equals(url)){
             System.out.println("Verification successful!! ");
         }else {
             System.out.println("Verification failed. This sucks ");
-            System.out.println(actualurl);
+            System.out.println(actualUrl);
             System.out.println(url);
 
          String pgSrc = driver.getPageSource();
          int pgSrcLength = pgSrc.length();
             System.out.println(pgSrcLength);
+            System.out.println(pgSrc);
 
 
             driver.close();
@@ -40,6 +50,6 @@ public class browserCommandPractice1 {
 
 
 
-
     }
 }
+

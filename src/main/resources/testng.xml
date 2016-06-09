@@ -3,7 +3,7 @@
 
 <suite name ="automation">
 
-    <!--test name="myFirstTest">
+    <test name="myFirstTest"/>
         <classes>
             <class name = "com.automation.test.myFirstTest"/>
         </classes>
@@ -11,7 +11,7 @@
     <test name="mySecondTest">
         <classes>
             <class name="com.automation.test.mySecondTest"/>
-        </classes>-->
+        </classes>
 
 
 
