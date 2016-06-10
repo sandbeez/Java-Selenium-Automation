@@ -1,11 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<<<<<<< HEAD
-<testsuite failures="1" time="55.182" errors="0" skipped="0" tests="3" name="TestSuite">
-=======
-<testsuite failures="1" time="54.333" errors="0" skipped="0" tests="3" name="TestSuite">
->>>>>>> 027cb10ee1d53b67cdd0248f1157b1bc88223f52
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="23.296" tests="1" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="idea.version" value="15.0.1"/>
+    <property name="idea.version" value="2016.1.3"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/lib"/>
     <property name="java.vm.version" value="23.25-b01"/>
@@ -16,45 +12,40 @@
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="idea.launcher.port" value="7533"/>
+    <property name="idea.launcher.port" value="7538"/>
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-<<<<<<< HEAD
-    <property name="user.dir" value="/Users/santoshbasnet/Desktop/gitclone/Selenium-Practice"/>
-=======
-    <property name="user.dir" value="/Users/santoshbasnet/IdeaProjects/Selenium-Practice"/>
->>>>>>> 027cb10ee1d53b67cdd0248f1157b1bc88223f52
+    <property name="user.dir" value="/Users/santoshbasnet/Java-Selenium-Automation/Java-Selenium-WebDriver"/>
     <property name="java.runtime.version" value="1.7.0_25-b15"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/lib/endorsed"/>
     <property name="os.arch" value="x86_64"/>
     <property name="java.io.tmpdir" value="/var/folders/7b/qhjgldld789gy7rs82wvbk8c0000gn/T/"/>
-    <property name="line.separator" value="
-"/>
+    <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Mac OS X"/>
-    <property name="classworlds.conf" value="/Applications/IntelliJ IDEA 15 CE.app/Contents/plugins/maven/lib/maven3/bin/m2.conf"/>
+    <property name="classworlds.conf" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/bin/m2.conf"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/Users/santoshbasnet/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="51.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="10.11.4"/>
+    <property name="os.version" value="10.11.5"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="user.home" value="/Users/santoshbasnet"/>
     <property name="user.timezone" value="America/Los_Angeles"/>
     <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
     <property name="java.specification.version" value="1.7"/>
-    <property name="idea.launcher.bin.path" value="/Applications/IntelliJ IDEA 15 CE.app/Contents/bin"/>
+    <property name="idea.launcher.bin.path" value="/Applications/IntelliJ IDEA CE.app/Contents/bin"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="user.name" value="santoshbasnet"/>
-    <property name="java.class.path" value="/Applications/IntelliJ IDEA 15 CE.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds-2.4.jar:/Applications/IntelliJ IDEA 15 CE.app/Contents/lib/idea_rt.jar"/>
+    <property name="java.class.path" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds-2.4.jar:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar"/>
     <property name="java.vm.specification.version" value="1.7"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre"/>
-    <property name="sun.java.command" value="com.intellij.rt.execution.application.AppMain org.codehaus.classworlds.Launcher -Didea.version=15.0.1 clean verify"/>
+    <property name="sun.java.command" value="com.intellij.rt.execution.application.AppMain org.codehaus.classworlds.Launcher -Didea.version=2016.1.3 clean verify"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -63,7 +54,7 @@
     <property name="java.ext.dirs" value="/Users/santoshbasnet/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
     <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/lib/JObjC.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/classes"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="/Applications/IntelliJ IDEA 15 CE.app/Contents/plugins/maven/lib/maven3"/>
+    <property name="maven.home" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3"/>
     <property name="file.separator" value="/"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -72,88 +63,5 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-<<<<<<< HEAD
-  <testcase time="14.066" classname="com.automation.test.browserNavigationCommandTest" name="practiceBrowserCommandNavigation"/>
-  <testcase time="34.701" classname="com.automation.test.myFirstTest" name="launchDriver">
-    <failure message="The given selector input[@name=&apos;subjectbox is either invalid or does not result in a WebElement. The following error occurred:
-InvalidSelectorError: Unable to locate an element with the xpath expression input[@name=&apos;subjectbox because of the following error:
-SyntaxError: The expression is not a legal expression.
-Command duration or timeout: 728 milliseconds
-=======
-  <testcase time="11.968" classname="com.automation.test.browserNavigationCommandTest" name="practiceBrowserCommandNavigation"/>
-  <testcase time="33.743" classname="com.automation.test.myFirstTest" name="launchDriver">
-    <failure message="The given selector input[@name=&apos;subjectbox is either invalid or does not result in a WebElement. The following error occurred:
-InvalidSelectorError: Unable to locate an element with the xpath expression input[@name=&apos;subjectbox because of the following error:
-SyntaxError: The expression is not a legal expression.
-Command duration or timeout: 571 milliseconds
->>>>>>> 027cb10ee1d53b67cdd0248f1157b1bc88223f52
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;SANTOSHs-MacBook-Pro.local&apos;, ip: &apos;10.0.0.9&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.4&apos;, java.version: &apos;1.7.0_25&apos;
-*** Element info: {Using=xpath, value=input[@name=&apos;subjectbox}
-<<<<<<< HEAD
-Session ID: 0cdfffe5-5dc5-4042-996e-e6dc2a8eab14
-=======
-Session ID: 1a55ba43-0695-254c-8c8b-030275d056d7
->>>>>>> 027cb10ee1d53b67cdd0248f1157b1bc88223f52
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=45.0.2}]" type="org.openqa.selenium.InvalidSelectorException">org.openqa.selenium.InvalidSelectorException: The given selector input[@name=&apos;subjectbox is either invalid or does not result in a WebElement. The following error occurred:
-InvalidSelectorError: Unable to locate an element with the xpath expression input[@name=&apos;subjectbox because of the following error:
-SyntaxError: The expression is not a legal expression.
-<<<<<<< HEAD
-Command duration or timeout: 728 milliseconds
-=======
-Command duration or timeout: 571 milliseconds
->>>>>>> 027cb10ee1d53b67cdd0248f1157b1bc88223f52
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;SANTOSHs-MacBook-Pro.local&apos;, ip: &apos;10.0.0.9&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.4&apos;, java.version: &apos;1.7.0_25&apos;
-*** Element info: {Using=xpath, value=input[@name=&apos;subjectbox}
-<<<<<<< HEAD
-Session ID: 0cdfffe5-5dc5-4042-996e-e6dc2a8eab14
-=======
-Session ID: 1a55ba43-0695-254c-8c8b-030275d056d7
->>>>>>> 027cb10ee1d53b67cdd0248f1157b1bc88223f52
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=45.0.2}]
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at com.automation.test.myFirstTest.launchDriver(myFirstTest.java:47)
-Caused by: org.openqa.selenium.InvalidSelectorException: The given selector input[@name=&apos;subjectbox is either invalid or does not result in a WebElement. The following error occurred:
-InvalidSelectorError: Unable to locate an element with the xpath expression input[@name=&apos;subjectbox because of the following error:
-SyntaxError: The expression is not a legal expression.
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;SANTOSHs-MacBook-Pro.local&apos;, ip: &apos;10.0.0.9&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.4&apos;, java.version: &apos;1.7.0_25&apos;
-Driver info: driver.version: unknown
-<<<<<<< HEAD
-	at &lt;anonymous class&gt;.FirefoxDriver.annotateInvalidSelectorError_(file:///var/folders/7b/qhjgldld789gy7rs82wvbk8c0000gn/T/anonymous7675864633806113513webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10744)
-	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/7b/qhjgldld789gy7rs82wvbk8c0000gn/T/anonymous7675864633806113513webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10775)
-	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElement(file:///var/folders/7b/qhjgldld789gy7rs82wvbk8c0000gn/T/anonymous7675864633806113513webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10779)
-	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/7b/qhjgldld789gy7rs82wvbk8c0000gn/T/anonymous7675864633806113513webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
-	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///var/folders/7b/qhjgldld789gy7rs82wvbk8c0000gn/T/anonymous7675864633806113513webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12666)
-	at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///var/folders/7b/qhjgldld789gy7rs82wvbk8c0000gn/T/anonymous7675864633806113513webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12608)
-</failure>
-  </testcase>
-  <testcase time="6.002" classname="com.automation.test.mySecondTest" name="switchWindowTest"/>
-=======
-	at &lt;anonymous class&gt;.FirefoxDriver.annotateInvalidSelectorError_(file:///var/folders/7b/qhjgldld789gy7rs82wvbk8c0000gn/T/anonymous8008103212609101533webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10744)
-	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/7b/qhjgldld789gy7rs82wvbk8c0000gn/T/anonymous8008103212609101533webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10775)
-	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElement(file:///var/folders/7b/qhjgldld789gy7rs82wvbk8c0000gn/T/anonymous8008103212609101533webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10779)
-	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/7b/qhjgldld789gy7rs82wvbk8c0000gn/T/anonymous8008103212609101533webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
-	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///var/folders/7b/qhjgldld789gy7rs82wvbk8c0000gn/T/anonymous8008103212609101533webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12666)
-	at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///var/folders/7b/qhjgldld789gy7rs82wvbk8c0000gn/T/anonymous8008103212609101533webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12608)
-</failure>
-  </testcase>
-  <testcase time="8.284" classname="com.automation.test.mySecondTest" name="switchWindowTest"/>
->>>>>>> 027cb10ee1d53b67cdd0248f1157b1bc88223f52
+  <testcase name="webElementPractice1" classname="com.automation.test.webElementPractice1" time="22.622"/>
 </testsuite>

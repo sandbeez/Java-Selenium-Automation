@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-        <!DOCTYPE suite SYATEM "http://testng.org/testng-1.0.dtd">
+        <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 <suite name ="automation">
 
-    <test name="myFirstTest"/>
-        <classes>
-            <class name = "com.automation.test.myFirstTest"/>
-        </classes>
-
     <test name="mySecondTest">
         <classes>
-            <class name="com.automation.test.mySecondTest"/>
+            <class name = "com.automation.test.browserCommands1"/>
         </classes>
-
-
-
     </test>
 
-</suite> 
+    <test name="webElementPractice1">
+        <classes>
+            <class name = "com.automation.test.validLoginTest"/>
+        </classes>
+    </test>
+
+</suite>
